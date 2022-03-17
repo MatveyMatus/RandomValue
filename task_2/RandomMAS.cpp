@@ -19,7 +19,7 @@ void meanValue(int(&arr)[10000]) {
     for (int i = 0; i < 10000; ++i) {
         sum += arr[i];
     }
-    cout << endl << "meanValue: " << (sum * 1.0) / (10 * 1.0);
+    cout << endl << "meanValue: " << (sum * 1.0) / (10000 * 1.0);
 }
 
 int main()
